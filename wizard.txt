@@ -1,0 +1,125 @@
+﻿If CompareWBVersion(304) < 0
+    Cancel "Wrye Bash outdated outdated.\nPlease update to the latest version before installing this mod."
+EndIf
+
+If CompareGameVersion("1.9.32.0") < 0
+	Cancel "Skyrim version outdated.\nPlease update to the latest version before installing this mod."
+	FatalError
+EndIf
+
+If GetEspmStatus("Skyrim.ESM") < 0
+	Cancel "Skyrim not found.\nInstallation aborted."
+ElseIf GetEspmStatus("Skyrim.ESM") == 0
+	Cancel "Skyrim not activated.\nInstallation aborted."
+EndIf
+
+If GetEspmStatus("Update.ESM") < 0
+	Cancel "Update.ESM not found.\nInstallation aborted."
+ElseIf GetEspmStatus("Update.ESM") == 0
+	Cancel "Update.ESM not activated.\nInstallation aborted."
+EndIf
+
+DeSelectAll
+
+SelectOne "Which language do you want to use?", \
+	"|English", "This installes the english version of MiC.", "fomod/screenshot.jpg", \
+	"German", "Dies installiert die deutsche Version von MiC.", "fomod/screenshot.jpg"
+	Case "English"
+		Lng = 1
+		Break
+	Case "German"
+		Lng = 2
+		Break
+EndSelect
+
+If Lng == 1
+	SelectMany "Which mod do you want to install?", \
+		"|Calypsia the Adult Toy Merchant", "The items from this mod now will use the armor slots to match with Devious Deviced.", "fomod/Pics/Cal.jpg", \
+		"|SED7", "The whole piercing collection got an overhaul and was merged into a single esp.\nThe armor slots of the piercing groups are changed, so that nipple piercings are now using the same slot as the chastity bra and labia piercing using the same slot as the chastity belt from Devious Devices.", "fomod/Pics/SED.jpg"
+		Case "Calypsia the Adult Toy Merchant"
+			Cal = 1
+			Fle = 1
+			Break
+		Case "SED7"
+			SED = 1
+			Fle = 1
+			Break
+		Default
+			Fle = -1
+			Cancel "No plugin selected.\ninstallation aborted."
+			Break
+	EndSelect
+	If SED = 1
+		SelectOne "Please choose a Body", \
+			"7Base", "This installs the 7B version of the SED7 piercings.", "fomod/screenshot.jpg", \
+			"|CBBE3", "This installs the CBBE3 version of the SED7 piercings.", "fomod/screenshot.jpg"
+			Case "7Base"
+				Bdy = 1
+				Break
+			Case "CBBE3"
+				Bdy = 2
+				Break
+		EndSelect
+	EndIf
+EndIf
+If Lng == 2
+	SelectMany "Welche Modifikation möchten Sie installieren?", \
+		"|Calypsia the Adult Toy Merchant", "Die Gegenstaende aus dieser Mod werden nun die gleichen Ruestungsslots benutzen um zu denen aus Devious Devices zu passen.", "fomod/Pics/Cal.jpg", \
+		"|SED7", "Die gesamte Piercingkollektion wurde ueberarbeitet und in einer esp zusammengefasst.\nDie Ruestungsslot wurden bei den einzelnen Piercinggruppen so geaendert, dass Brustwarzenpiercings den gleichen Slot wie der Keuchheits-BH und die Schamlippenpiercings den gleichen Slot wie der Keuchheitsguertel aus Devious Devices verwenden.", "fomod/Pics/SED.jpg"
+		Case "Calypsia the Adult Toy Merchant"
+			Cal = 1
+			Fle = 1
+			Break
+		Case "SED7"
+			SED = 1
+			Fle = 1
+			Break
+		Default
+			Fle = -1
+			Cancel "Kein Plugin ausgewählt.\ninstallation abgebrochen."
+			Break
+	EndSelect
+	If SED = 1
+		SelectOne "Welche Körpermodifikation nutzen Sie?", \
+			"7Base", "Dies installiert die 7B Variante der SED7 Piercings.", "fomod/screenshot.jpg", \
+			"|CBBE3", "Dies installiert die CBBE3 Variante der SED7 Piercings.", "fomod/screenshot.jpg"
+			Case "7Base"
+				Bdy = 1
+				Break
+			Case "CBBE3"
+				Bdy = 2
+				Break
+		EndSelect
+	EndIf
+EndIf
+If Fle != -1
+	If Cal == 1
+		SelectSubPackage "01 Calypsia the Adult Toy Merchant - Base"
+		If Lng == 1
+			SelectSubPackage "02 Calypsia the Adult Toy Merchant - ENG"
+		EndIf
+		If Lng == 2
+			SelectSubPackage "02 Calypsia the Adult Toy Merchant - DEU"
+		EndIf
+	EndIf
+	If SED == 1
+		If Bdy == 1
+			SelectSubPackage "03 SED7-CBBE3-Allin1-EDITION - 7B - Base"
+			If Lng == 1
+				SelectSubPackage "04 SED7-CBBE3-Allin1-EDITION - 7B - ENG"
+			EndIf
+			If Lng == 2
+				SelectSubPackage "04 SED7-CBBE3-Allin1-EDITION - 7B - DEU"
+			EndIf
+		EndIf
+		If Bdy == 2
+			SelectSubPackage "03 SED7-CBBE3-Allin1-EDITION Merged - CBBE - Base"
+			If Lng == 1
+				SelectSubPackage "04 SED7-CBBE3-Allin1-EDITION Merged - CBBE - ENG"
+			EndIf
+			If Lng == 2
+				SelectSubPackage "04 SED7-CBBE3-Allin1-EDITION Merged - CBBE - DEU"
+			EndIf
+		EndIf
+	EndIf
+EndIf

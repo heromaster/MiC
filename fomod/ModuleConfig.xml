@@ -1,0 +1,330 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://qconsulting.ca/fo3/ModConfig5.0.xsd">
+	<moduleName>MiC - Make it compatible</moduleName>
+	<moduleImage path="fomod\screenshot.jpg"/>
+	<moduleDependencies>
+		<fileDependency file="Skyrim.esm" state="Active"/>
+		<fileDependency file="Update.esm" state="Active"/>
+	</moduleDependencies>
+	<installSteps order="Explicit">
+<!--
+	LANGUAGE
+-->
+		<installStep name="Language">
+			<optionalFileGroups>
+				<group name="Available Languages" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="English">
+							<description>
+This installed the english version of MiC.
+							</description>
+							<image path="fomod\screenshot.jpg"/>
+							<conditionFlags>
+								<flag name="Lng">1</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Deutsch">
+							<description>
+Dies installiert die deutsche Version von MiC.
+							</description>
+							<image path="fomod\screenshot.jpg"/>
+							<conditionFlags>
+								<flag name="Lng">2</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+<!--
+	MODS
+-->
+		<installStep name="Mods">
+			<visible>
+				<flagDependency flag="Lng" value="1"/>
+			</visible>
+			<optionalFileGroups>
+				<group name="Available Mods" type="SelectAtLeastOne">
+					<plugins order="Explicit">
+						<plugin name="Calypsia the Adult Toy Merchant">
+							<description>
+The items from this mod now will use the armor slots to match with Devious Deviced.
+							</description>
+							<image path="fomod\Pics\Cal.jpg"/>
+							<conditionFlags>
+								<flag name="Cal">1</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="SED7">
+							<description>
+The whole piercing collection got an overhaul and was merged into a single esp. 
+The armor slots of the piercing groups are changed, so that nipple piercings are now using the same slot as the chastity bra and labia piercing using the same slot as the chastity belt from Devious Devices.
+							</description>
+							<image path="fomod\Pics\SED.jpg"/>
+							<conditionFlags>
+								<flag name="SED">1</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+		<installStep name="Mods">
+			<visible>
+				<flagDependency flag="Lng" value="2"/>
+			</visible>
+			<optionalFileGroups>
+				<group name="Verfuegbare Modifikationen" type="SelectAtLeastOne">
+					<plugins order="Explicit">
+						<plugin name="Calypsia the Adult Toy Merchant">
+							<description>
+Die Gegenstaende aus dieser Mod werden nun die gleichen Ruestungsslots benutzen um zu denen aus Devious Devices zu passen.
+							</description>
+							<image path="fomod\Pics\Cal.jpg"/>
+							<conditionFlags>
+								<flag name="Cal">1</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="SED7">
+							<description>
+Die gesamte Piercingkollektion wurde ueberarbeitet und in einer esp zusammengefasst. 
+Die Ruestungsslot wurden bei den einzelnen Piercinggruppen so geaendert, dass Brustwarzenpiercings den gleichen Slot wie der Keuchheits-BH und die Schamlippenpiercings den gleichen Slot wie der Keuchheitsguertel aus Devious Devices verwenden.							</description>
+							<image path="fomod\Pics\SED.jpg"/>
+							<conditionFlags>
+								<flag name="SED">1</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+<!--
+	BODiES
+-->
+		<installStep name="Bodies">
+			<visible>
+				<flagDependency flag="Lng" value="1"/>
+				<flagDependency flag="SED" value="1"/>
+			</visible>
+			<optionalFileGroups>
+				<group name="Available Bodies" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="7Base">
+							<description>
+This installs the 7B version of the SED7 piercings.
+							</description>
+							<image path="fomod\screenshot.jpg"/>
+							<conditionFlags>
+								<flag name="Bdy">1</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="CBBE3">
+							<description>
+This installs the CBBE3 version of the SED7 piercings.
+							</description>
+							<image path="fomod\screenshot.jpg"/>
+							<conditionFlags>
+								<flag name="Bdy">2</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+		<installStep name="Koerper">
+			<visible>
+				<flagDependency flag="Lng" value="2"/>
+				<flagDependency flag="SED" value="1"/>
+			</visible>
+			<optionalFileGroups>
+				<group name="Verfuegbare Koerper" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="7Base">
+							<description>
+Dies installiert die 7B Variante der SED7 Piercings.
+							</description>
+							<image path="fomod\screenshot.jpg"/>
+							<conditionFlags>
+								<flag name="Bdy">1</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="CBBE3">
+							<description>
+Dies installiert die CBBE3 Variante der SED7 Piercings.
+							</description>
+							<image path="fomod\screenshot.jpg"/>
+							<conditionFlags>
+								<flag name="Bdy">2</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+<!--
+	ADDiTiONALs
+-->
+		<installStep name="Additional">
+			<visible>
+				<flagDependency flag="Lng" value="1"/>
+			</visible>
+			<optionalFileGroups>
+				<group name="Support Files" type="SelectAny">
+					<plugins order="Explicit">
+						<plugin name="Mod Organizer">
+							<description>
+installs a file called Meta.iNi, that's only used by Mod Organizer. 
+By installing this file, versioning will be available to Mod Organizer, right after you installed this mod. 
+
+No manual editing needed, except assigning a category. 
+The file comes with category #28 assigned, which is supposed to be "Clothing and Equipment" and may not be available in your installation of Mod Organizer.
+							</description>
+							<image path="fomod\Pics\MO.jpg"/>
+							<conditionFlags>
+								<flag name="MO">1</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+		<installStep name="Zusaetze">
+			<visible>
+				<flagDependency flag="Lng" value="2"/>
+			</visible>
+			<optionalFileGroups>
+				<group name="Unterstuetzende Dateien" type="SelectAny">
+					<plugins order="Explicit">
+						<plugin name="Mod Organizer">
+							<description>
+installiert eine Datei mit dem Namen Meta.iNi, Welche nur von Mod Organizer genutzt wird. 
+Wenn diese Datei installiert wird, kann Mod Organizer die Version der Mod direkt nach der installation anzeigen. 
+
+Ausser dem Zuteilen einer Kategorie wird kein weiteres Bearbeiten benoetigt.
+Die Voreinstellung ist Kategorie #28, welche fuer "Clothing and Equipment" und nicht in ihrer installation von Mod Organizer verfuegbar sein kann.
+							</description>
+							<image path="fomod\Pics\MO.jpg"/>
+							<conditionFlags>
+								<flag name="MO">1</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+	</installSteps>
+<!--
+	iNSTALL
+-->
+	<conditionalFileInstalls>
+		<patterns>
+			<pattern>
+				<dependencies>
+					<flagDependency flag="Cal" value="1"/>
+					<flagDependency flag="Lng" value="1"/>
+				</dependencies>
+				<files>
+					<folder source="01 Calypsia the Adult Toy Merchant - Base" destination="" priority="1"/>
+					<folder source="02 Calypsia the Adult Toy Merchant - ENG" destination="" priority="2"/>
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies>
+					<flagDependency flag="Cal" value="1"/>
+					<flagDependency flag="Lng" value="2"/>
+				</dependencies>
+				<files>
+					<folder source="01 Calypsia the Adult Toy Merchant - Base" destination="" priority="1"/>
+					<folder source="02 Calypsia the Adult Toy Merchant - DEU" destination="" priority="2"/>
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies>
+					<flagDependency flag="SED" value="1"/>
+					<flagDependency flag="Lng" value="1"/>
+					<flagDependency flag="Bdy" value="1"/>
+				</dependencies>
+				<files>
+					<folder source="03 SED7-CBBE3-Allin1-EDITION - 7B - Base" destination="" priority="3"/>
+					<folder source="04 SED7-CBBE3-Allin1-EDITION - 7B - ENG" destination="" priority="4"/>
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies>
+					<flagDependency flag="SED" value="1"/>
+					<flagDependency flag="Lng" value="1"/>
+					<flagDependency flag="Bdy" value="2"/>
+				</dependencies>
+				<files>
+					<folder source="03 SED7-CBBE3-Allin1-EDITION Merged - CBBE - Base" destination="" priority="3"/>
+					<folder source="04 SED7-CBBE3-Allin1-EDITION Merged - CBBE - ENG" destination="" priority="4"/>
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies>
+					<flagDependency flag="SED" value="1"/>
+					<flagDependency flag="Lng" value="2"/>
+					<flagDependency flag="Bdy" value="1"/>
+				</dependencies>
+				<files>
+					<folder source="03 SED7-CBBE3-Allin1-EDITION - 7B - Base" destination="" priority="3"/>
+					<folder source="04 SED7-CBBE3-Allin1-EDITION - 7B - DEU" destination="" priority="4"/>
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies>
+					<flagDependency flag="SED" value="1"/>
+					<flagDependency flag="Lng" value="2"/>
+					<flagDependency flag="Bdy" value="2"/>
+				</dependencies>
+				<files>
+					<folder source="03 SED7-CBBE3-Allin1-EDITION Merged - CBBE - Base" destination="" priority="3"/>
+					<folder source="04 SED7-CBBE3-Allin1-EDITION Merged - CBBE - DEU" destination="" priority="4"/>
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies>
+					<flagDependency flag="MO" value="1"/>
+				</dependencies>
+				<files>
+					<file source="fomod\meta.ini" destination="meta.ini" priority="5"/>
+				</files>
+			</pattern>
+		</patterns>
+	</conditionalFileInstalls>
+</config>

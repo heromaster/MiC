@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<fomod>
+	<Name>MiC - Make it Compatible</Name>
+	<Author>Heromaster</Author>
+	<Version MachineVersion="1.0">1.2.1</Version>
+	<Description>Welcome to MIC - Make it compatible
+
+This will be a series of selected mods which will be made compatible with Devious Devices - Assets and Devious Devices - Captured Dreamshop and also will be made compatible with each other so that you don't find yourself in a situation where you could put two different nipple piercings on your character, for example.
+
+The items in this mod series will be made compatible to the following mods:
+    * Devious Devices
+    * Cloaks of Skyrim and Winter is Coming - Cloaks
+    * Frostfall
+    * Left Hand Rings
+
+
+Calypsia - The Adult Toys Merchant
+http://www.nexusmods.com/skyrim/mods/24421
+
+Installation
+It's fully integrated. No separte download necessary.
+
+Changes
+    * Fixed the keywords for all items (Removed ClothingHand, ClothingFeet, ClothingCirclet keywords and also JewelryExpensive keyword if the base value of that item was lower than 100 gold)
+    * Fixed the detection sound values (Set it to 0 instead of 76)
+    * Cat and pig ears now use the circlet slot
+    * Seat of the Queen now uses slot 44 and 50 (matching the slot numbers of DD - Assets Gag Straps and Gag Mouthpiece)
+    * Strapon's now use slot 48,49 and 54 (matching the slot numbers of DD - Assets Plug (Anal), Plug (Vaginal) and Chastity Belt)
+    * Nipple pasties now uses slot 56 (matching the slot number of DD - Assets Chastity Bra)
+    * Butt plugs now use slot 48 (matching the slot number of DD - Assets Plug (Anal)
+    * Vaginal plugs now use slot 54 (matching the slot number of DD - Assets Plug (Vaginal)
+
+
+SED7 Accessoire Piercingset for CBBE
+http://www.nexusmods.com/skyrim/mods/20655
+
+Installation
+Install SED7 Piercingset first. You don't need to install the Allin1 Hotfix. After installing, deactivate the esp's.
+
+Changes
+    * Now does need SexLab as hard dependency
+    * Merged the different *.esp's into a single one
+    * Removed the Nipplewand items since there were no meshes provided for it which otherwise would have resulted into an invisible item
+    * Changed the armor rating of the items to 0
+    * Labia rings now use the same slot as the belts from Devious Devices
+    * Nipple rings now use the same slot as the bra from Devious Devices
+    * Navel piercings do now use Body Addon 6 as their primary slot (Biped Slot 47)
+    * Doubled the weight of the items (from 0.025 to 0.05) and adjusted the base gold value slightly (Might be revisited)
+    * Removed the temper recipes because they don't provide armor anymore
+    * Removed the ArmorLight keyword
+    * Added the JewelryExpensive keyword for items with base gold value over 250
+    * Added the SexLabNoStrip keyword to all items
+
+
+Installing MiC
+Install my mod after you have installed the previous mods you want to use. Tick the options you want to have installed.
+
+
+Credits
+Calyps for creating the toys
+Foaman for creating Calypsia - The Adult Toys Merchant
+Shazar for creating SED7 Accessoire Piercingset
+
+
+Changelog
+    * 1.2
+    - Removed Remodeled Armor because the newest version do not have panties anymore
+    - Added Calypsia - The Adult Toy Merchant
+    * 1.1.2
+    - Switched to an All-in-1-Installer thanks to CG!, it includes the english version as well as the german version
+    * 1.1.1
+    - Accidentially marked the navel piercing as nipple piercings in SED7 Accessoires Piercingset - fixed
+    * 1.1
+    - SED7 Accessoire Piercingset added
+    * 1.0
+    - Initial Release</Description>
+	<Website>http://www.loverslab.com/topic/24830-mic-make-it-compatible/</Website>
+	<Groups>
+		<element>Clothing and Equipment</element>
+	</Groups>
+</fomod>
