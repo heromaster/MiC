@@ -1,0 +1,10 @@
+<SliderGroups>
+	<Group name="MiC_SED7_PiercingCollection">
+		<Member name="SED7_LabiaRings01" />
+		<Member name="SED7_NavelPiercing01" />
+		<Member name="SED7_NavelPiercing02" />
+		<Member name="SED7_NavelPiercing03" />
+		<Member name="SED7_NippleRings" />
+		<Member name="SED7_NippleShield" />
+	</Group>
+</SliderGroups>

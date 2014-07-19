@@ -22,7 +22,7 @@ EndIf
 DeSelectAll
 
 SelectOne "Which language do you want to use?", \
-	"|English", "This installes the english version of MiC.", "fomod/screenshot.jpg", \
+	"|English", "This installs the english version of MiC.", "fomod/screenshot.jpg", \
 	"German", "Dies installiert die deutsche Version von MiC.", "fomod/screenshot.jpg"
 	Case "English"
 		Lng = 1
@@ -113,12 +113,12 @@ If Fle != -1
 			EndIf
 		EndIf
 		If Bdy == 2
-			SelectSubPackage "03 SED7-CBBE3-Allin1-EDITION Merged - CBBE - Base"
+			SelectSubPackage "03 SED7-CBBE3-Allin1-EDITION - CBBE - Base"
 			If Lng == 1
-				SelectSubPackage "04 SED7-CBBE3-Allin1-EDITION Merged - CBBE - ENG"
+				SelectSubPackage "04 SED7-CBBE3-Allin1-EDITION - CBBE - ENG"
 			EndIf
 			If Lng == 2
-				SelectSubPackage "04 SED7-CBBE3-Allin1-EDITION Merged - CBBE - DEU"
+				SelectSubPackage "04 SED7-CBBE3-Allin1-EDITION - CBBE - DEU"
 			EndIf
 		EndIf
 	EndIf

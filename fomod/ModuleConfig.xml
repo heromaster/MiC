@@ -15,7 +15,7 @@
 					<plugins order="Explicit">
 						<plugin name="English">
 							<description>
-This installed the english version of MiC.
+This installs the english version of MiC.
 							</description>
 							<image path="fomod\screenshot.jpg"/>
 							<conditionFlags>
@@ -291,8 +291,8 @@ Die Voreinstellung ist Kategorie #28, welche fuer "Clothing and Equipment" und n
 					<flagDependency flag="Bdy" value="2"/>
 				</dependencies>
 				<files>
-					<folder source="03 SED7-CBBE3-Allin1-EDITION Merged - CBBE - Base" destination="" priority="3"/>
-					<folder source="04 SED7-CBBE3-Allin1-EDITION Merged - CBBE - ENG" destination="" priority="4"/>
+					<folder source="03 SED7-CBBE3-Allin1-EDITION - CBBE - Base" destination="" priority="3"/>
+					<folder source="04 SED7-CBBE3-Allin1-EDITION - CBBE - ENG" destination="" priority="4"/>
 				</files>
 			</pattern>
 			<pattern>
@@ -313,8 +313,8 @@ Die Voreinstellung ist Kategorie #28, welche fuer "Clothing and Equipment" und n
 					<flagDependency flag="Bdy" value="2"/>
 				</dependencies>
 				<files>
-					<folder source="03 SED7-CBBE3-Allin1-EDITION Merged - CBBE - Base" destination="" priority="3"/>
-					<folder source="04 SED7-CBBE3-Allin1-EDITION Merged - CBBE - DEU" destination="" priority="4"/>
+					<folder source="03 SED7-CBBE3-Allin1-EDITION - CBBE - Base" destination="" priority="3"/>
+					<folder source="04 SED7-CBBE3-Allin1-EDITION - CBBE - DEU" destination="" priority="4"/>
 				</files>
 			</pattern>
 			<pattern>

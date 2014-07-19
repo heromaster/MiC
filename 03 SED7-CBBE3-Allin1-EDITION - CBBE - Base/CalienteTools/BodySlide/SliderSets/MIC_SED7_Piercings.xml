@@ -1,0 +1,617 @@
+<SliderSetInfo>
+    <SliderSet name="SED7_LabiaRings01">
+        <SetFolder>SED7_LabiaRings01</SetFolder>
+        <SourceFile>SED7_LabiaRings01.nif</SourceFile>
+        <OutputPath>meshes\mic\clothing\bodyjewelry\f</OutputPath>
+        <OutputFile>MiC_SED7_LabiaRings</OutputFile>
+        <BaseShapeName target="Torus01">Torus01</BaseShapeName>
+        <BaseShapeName target="Torus03">Torus03</BaseShapeName>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="Torus03ChubbyWaist" target="Torus03" local="true">Torus03ChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="Torus01PregnancyBelly" target="Torus01" local="true">Torus01PregnancyBelly.bsd</datafile>
+            <datafile name="Torus03PregnancyBelly" target="Torus03" local="true">Torus03PregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="Torus01TummyTuck" target="Torus01" local="true">Torus01TummyTuck.bsd</datafile>
+            <datafile name="Torus03TummyTuck" target="Torus03" local="true">Torus03TummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="Torus01Hipbone" target="Torus01" local="true">Torus01Hipbone.bsd</datafile>
+            <datafile name="Torus03Hipbone" target="Torus03" local="true">Torus03Hipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="Torus01Hips" target="Torus01" local="true">Torus01Hips.bsd</datafile>
+            <datafile name="Torus03Hips" target="Torus03" local="true">Torus03Hips.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="Torus01ButtSmall" target="Torus01" local="true">Torus01ButtSmall.bsd</datafile>
+            <datafile name="Torus03ButtSmall" target="Torus03" local="true">Torus03ButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="Torus01ButtShape2" target="Torus01" local="true">Torus01ButtShape2.bsd</datafile>
+            <datafile name="Torus03ButtShape2" target="Torus03" local="true">Torus03ButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="Torus01BigButt" target="Torus01" local="true">Torus01BigButt.bsd</datafile>
+            <datafile name="Torus03BigButt" target="Torus03" local="true">Torus03BigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="Torus01ChubbyButt" target="Torus01" local="true">Torus01ChubbyButt.bsd</datafile>
+            <datafile name="Torus03ChubbyButt" target="Torus03" local="true">Torus03ChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <datafile name="Torus01AppleCheeks" target="Torus01" local="true">Torus01AppleCheeks.bsd</datafile>
+            <datafile name="Torus03AppleCheeks" target="Torus03" local="true">Torus03AppleCheeks.bsd</datafile>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <datafile name="Torus01Groin" target="Torus01" local="true">Torus01Groin.bsd</datafile>
+            <datafile name="Torus03Groin" target="Torus03" local="true">Torus03Groin.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="Torus01SlimThighs" target="Torus01" local="true">Torus01SlimThighs.bsd</datafile>
+            <datafile name="Torus03SlimThighs" target="Torus03" local="true">Torus03SlimThighs.bsd</datafile>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <datafile name="Torus01Thighs" target="Torus01" local="true">Torus01Thighs.bsd</datafile>
+            <datafile name="Torus03Thighs" target="Torus03" local="true">Torus03Thighs.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <datafile name="Torus01ChubbyLegs" target="Torus01" local="true">Torus01ChubbyLegs.bsd</datafile>
+            <datafile name="Torus03ChubbyLegs" target="Torus03" local="true">Torus03ChubbyLegs.bsd</datafile>
+        </Slider>
+        <Slider name="Legs" invert="true" small="0" big="100">
+            <datafile name="Torus01Legs" target="Torus01" local="true">Torus01Legs.bsd</datafile>
+            <datafile name="Torus03Legs" target="Torus03" local="true">Torus03Legs.bsd</datafile>
+        </Slider>
+    </SliderSet>
+	<SliderSet name="SED7_NavelPiercing01">
+        <SetFolder>SED7_NavelPiercing01</SetFolder>
+        <SourceFile>SED7_NavelPiercing01.nif</SourceFile>
+        <OutputPath>meshes\mic\clothing\bodyjewelry\f</OutputPath>
+        <OutputFile>MiC_SED7_NavelPiercingBall</OutputFile>
+        <BaseShapeName target="Kugelfassung">Kugelfassung</BaseShapeName>
+        <BaseShapeName target="Sphere01">Sphere01</BaseShapeName>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="KugelfassungBreastsSmall" target="Kugelfassung" local="true">KugelfassungBreastsSmall.bsd</datafile>
+            <datafile name="Sphere01BreastsSmall" target="Sphere01" local="true">Sphere01BreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="KugelfassungBreastsSSH" target="Kugelfassung" local="true">KugelfassungBreastsSSH.bsd</datafile>
+            <datafile name="Sphere01BreastsSSH" target="Sphere01" local="true">Sphere01BreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="KugelfassungBreastFlatness" target="Kugelfassung" local="true">KugelfassungBreastFlatness.bsd</datafile>
+            <datafile name="Sphere01BreastFlatness" target="Sphere01" local="true">Sphere01BreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="KugelfassungBreastHeight" target="Kugelfassung" local="true">KugelfassungBreastHeight.bsd</datafile>
+            <datafile name="Sphere01BreastHeight" target="Sphere01" local="true">Sphere01BreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="KugelfassungBreastWidth" target="Kugelfassung" local="true">KugelfassungBreastWidth.bsd</datafile>
+            <datafile name="Sphere01BreastWidth" target="Sphere01" local="true">Sphere01BreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="KugelfassungBigTorso" target="Kugelfassung" local="true">KugelfassungBigTorso.bsd</datafile>
+            <datafile name="Sphere01BigTorso" target="Sphere01" local="true">Sphere01BigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="KugelfassungWaist" target="Kugelfassung" local="true">KugelfassungWaist.bsd</datafile>
+            <datafile name="Sphere01Waist" target="Sphere01" local="true">Sphere01Waist.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="KugelfassungChubbyWaist" target="Kugelfassung" local="true">KugelfassungChubbyWaist.bsd</datafile>
+            <datafile name="Sphere01ChubbyWaist" target="Sphere01" local="true">Sphere01ChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="KugelfassungBelly" target="Kugelfassung" local="true">KugelfassungBelly.bsd</datafile>
+            <datafile name="Sphere01Belly" target="Sphere01" local="true">Sphere01Belly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="KugelfassungBigBelly" target="Kugelfassung" local="true">KugelfassungBigBelly.bsd</datafile>
+            <datafile name="Sphere01BigBelly" target="Sphere01" local="true">Sphere01BigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="KugelfassungPregnancyBelly" target="Kugelfassung" local="true">KugelfassungPregnancyBelly.bsd</datafile>
+            <datafile name="Sphere01PregnancyBelly" target="Sphere01" local="true">Sphere01PregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="KugelfassungTummyTuck" target="Kugelfassung" local="true">KugelfassungTummyTuck.bsd</datafile>
+            <datafile name="Sphere01TummyTuck" target="Sphere01" local="true">Sphere01TummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="KugelfassungBack" target="Kugelfassung" local="true">KugelfassungBack.bsd</datafile>
+            <datafile name="Sphere01Back" target="Sphere01" local="true">Sphere01Back.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="KugelfassungHipbone" target="Kugelfassung" local="true">KugelfassungHipbone.bsd</datafile>
+            <datafile name="Sphere01Hipbone" target="Sphere01" local="true">Sphere01Hipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="KugelfassungHips" target="Kugelfassung" local="true">KugelfassungHips.bsd</datafile>
+            <datafile name="Sphere01Hips" target="Sphere01" local="true">Sphere01Hips.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="KugelfassungButtSmall" target="Kugelfassung" local="true">KugelfassungButtSmall.bsd</datafile>
+            <datafile name="Sphere01ButtSmall" target="Sphere01" local="true">Sphere01ButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="KugelfassungButtShape2" target="Kugelfassung" local="true">KugelfassungButtShape2.bsd</datafile>
+            <datafile name="Sphere01ButtShape2" target="Sphere01" local="true">Sphere01ButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="KugelfassungBigButt" target="Kugelfassung" local="true">KugelfassungBigButt.bsd</datafile>
+            <datafile name="Sphere01BigButt" target="Sphere01" local="true">Sphere01BigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="KugelfassungChubbyButt" target="Kugelfassung" local="true">KugelfassungChubbyButt.bsd</datafile>
+            <datafile name="Sphere01ChubbyButt" target="Sphere01" local="true">Sphere01ChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="KugelfassungSlimThighs" target="Kugelfassung" local="true">KugelfassungSlimThighs.bsd</datafile>
+            <datafile name="Sphere01SlimThighs" target="Sphere01" local="true">Sphere01SlimThighs.bsd</datafile>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="SED7_NavelPiercing02">
+        <SetFolder>SED7_NavelPiercing02</SetFolder>
+        <SourceFile>SED7_NavelPiercing02.nif</SourceFile>
+        <OutputPath>meshes\mic\clothing\bodyjewelry\f</OutputPath>
+        <OutputFile>MiC_SED7_NavelPiercingGem</OutputFile>
+        <BaseShapeName target="Kugelfassung01">Kugelfassung01</BaseShapeName>
+        <BaseShapeName target="Sphere03">Sphere03</BaseShapeName>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="Kugelfassung01BreastsSmall" target="Kugelfassung01" local="true">Kugelfassung01BreastsSmall.bsd</datafile>
+            <datafile name="Sphere03BreastsSmall" target="Sphere03" local="true">Sphere03BreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="Kugelfassung01BreastsSSH" target="Kugelfassung01" local="true">Kugelfassung01BreastsSSH.bsd</datafile>
+            <datafile name="Sphere03BreastsSSH" target="Sphere03" local="true">Sphere03BreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="Kugelfassung01BreastFlatness" target="Kugelfassung01" local="true">Kugelfassung01BreastFlatness.bsd</datafile>
+            <datafile name="Sphere03BreastFlatness" target="Sphere03" local="true">Sphere03BreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="Kugelfassung01BreastHeight" target="Kugelfassung01" local="true">Kugelfassung01BreastHeight.bsd</datafile>
+            <datafile name="Sphere03BreastHeight" target="Sphere03" local="true">Sphere03BreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="Kugelfassung01BreastWidth" target="Kugelfassung01" local="true">Kugelfassung01BreastWidth.bsd</datafile>
+            <datafile name="Sphere03BreastWidth" target="Sphere03" local="true">Sphere03BreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="Kugelfassung01BigTorso" target="Kugelfassung01" local="true">Kugelfassung01BigTorso.bsd</datafile>
+            <datafile name="Sphere03BigTorso" target="Sphere03" local="true">Sphere03BigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="Kugelfassung01Waist" target="Kugelfassung01" local="true">Kugelfassung01Waist.bsd</datafile>
+            <datafile name="Sphere03Waist" target="Sphere03" local="true">Sphere03Waist.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="Kugelfassung01ChubbyWaist" target="Kugelfassung01" local="true">Kugelfassung01ChubbyWaist.bsd</datafile>
+            <datafile name="Sphere03ChubbyWaist" target="Sphere03" local="true">Sphere03ChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="Kugelfassung01Belly" target="Kugelfassung01" local="true">Kugelfassung01Belly.bsd</datafile>
+            <datafile name="Sphere03Belly" target="Sphere03" local="true">Sphere03Belly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="Kugelfassung01BigBelly" target="Kugelfassung01" local="true">Kugelfassung01BigBelly.bsd</datafile>
+            <datafile name="Sphere03BigBelly" target="Sphere03" local="true">Sphere03BigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="Kugelfassung01PregnancyBelly" target="Kugelfassung01" local="true">Kugelfassung01PregnancyBelly.bsd</datafile>
+            <datafile name="Sphere03PregnancyBelly" target="Sphere03" local="true">Sphere03PregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="Kugelfassung01TummyTuck" target="Kugelfassung01" local="true">Kugelfassung01TummyTuck.bsd</datafile>
+            <datafile name="Sphere03TummyTuck" target="Sphere03" local="true">Sphere03TummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="Kugelfassung01Back" target="Kugelfassung01" local="true">Kugelfassung01Back.bsd</datafile>
+            <datafile name="Sphere03Back" target="Sphere03" local="true">Sphere03Back.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="Kugelfassung01Hipbone" target="Kugelfassung01" local="true">Kugelfassung01Hipbone.bsd</datafile>
+            <datafile name="Sphere03Hipbone" target="Sphere03" local="true">Sphere03Hipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="Kugelfassung01Hips" target="Kugelfassung01" local="true">Kugelfassung01Hips.bsd</datafile>
+            <datafile name="Sphere03Hips" target="Sphere03" local="true">Sphere03Hips.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="Kugelfassung01ButtSmall" target="Kugelfassung01" local="true">Kugelfassung01ButtSmall.bsd</datafile>
+            <datafile name="Sphere03ButtSmall" target="Sphere03" local="true">Sphere03ButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="Kugelfassung01ButtShape2" target="Kugelfassung01" local="true">Kugelfassung01ButtShape2.bsd</datafile>
+            <datafile name="Sphere03ButtShape2" target="Sphere03" local="true">Sphere03ButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="Kugelfassung01BigButt" target="Kugelfassung01" local="true">Kugelfassung01BigButt.bsd</datafile>
+            <datafile name="Sphere03BigButt" target="Sphere03" local="true">Sphere03BigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="Kugelfassung01ChubbyButt" target="Kugelfassung01" local="true">Kugelfassung01ChubbyButt.bsd</datafile>
+            <datafile name="Sphere03ChubbyButt" target="Sphere03" local="true">Sphere03ChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="Kugelfassung01SlimThighs" target="Kugelfassung01" local="true">Kugelfassung01SlimThighs.bsd</datafile>
+            <datafile name="Sphere03SlimThighs" target="Sphere03" local="true">Sphere03SlimThighs.bsd</datafile>
+        </Slider>
+    </SliderSet>
+	<SliderSet name="SED7_NavelPiercing03">
+        <SetFolder>SED7_NavelPiercing03</SetFolder>
+        <SourceFile>SED7_NavelPiercing03.nif</SourceFile>
+        <OutputPath>meshes\mic\clothing\bodyjewelry\f</OutputPath>
+        <OutputFile>MiC_SED7_NavelPiercingSpike</OutputFile>
+        <BaseShapeName target="Kugelfassung">Kugelfassung</BaseShapeName>
+        <BaseShapeName target="Sphere02">Sphere02</BaseShapeName>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="Sphere02BreastsSmall" target="Sphere02" local="true">Sphere02BreastsSmall.bsd</datafile>
+            <datafile name="KugelfassungBreastsSmall" target="Kugelfassung" local="true">KugelfassungBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="Sphere02BreastsSSH" target="Sphere02" local="true">Sphere02BreastsSSH.bsd</datafile>
+            <datafile name="KugelfassungBreastsSSH" target="Kugelfassung" local="true">KugelfassungBreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="Sphere02BreastFlatness" target="Sphere02" local="true">Sphere02BreastFlatness.bsd</datafile>
+            <datafile name="KugelfassungBreastFlatness" target="Kugelfassung" local="true">KugelfassungBreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="Sphere02BreastHeight" target="Sphere02" local="true">Sphere02BreastHeight.bsd</datafile>
+            <datafile name="KugelfassungBreastHeight" target="Kugelfassung" local="true">KugelfassungBreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="Sphere02BreastWidth" target="Sphere02" local="true">Sphere02BreastWidth.bsd</datafile>
+            <datafile name="KugelfassungBreastWidth" target="Kugelfassung" local="true">KugelfassungBreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="Sphere02BigTorso" target="Sphere02" local="true">Sphere02BigTorso.bsd</datafile>
+            <datafile name="KugelfassungBigTorso" target="Kugelfassung" local="true">KugelfassungBigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="100">
+            <datafile name="Sphere02Waist" target="Sphere02" local="true">Sphere02Waist.bsd</datafile>
+            <datafile name="KugelfassungWaist" target="Kugelfassung" local="true">KugelfassungWaist.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <datafile name="Sphere02ChubbyWaist" target="Sphere02" local="true">Sphere02ChubbyWaist.bsd</datafile>
+            <datafile name="KugelfassungChubbyWaist" target="Kugelfassung" local="true">KugelfassungChubbyWaist.bsd</datafile>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <datafile name="Sphere02Belly" target="Sphere02" local="true">Sphere02Belly.bsd</datafile>
+            <datafile name="KugelfassungBelly" target="Kugelfassung" local="true">KugelfassungBelly.bsd</datafile>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <datafile name="Sphere02BigBelly" target="Sphere02" local="true">Sphere02BigBelly.bsd</datafile>
+            <datafile name="KugelfassungBigBelly" target="Kugelfassung" local="true">KugelfassungBigBelly.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="Sphere02PregnancyBelly" target="Sphere02" local="true">Sphere02PregnancyBelly.bsd</datafile>
+            <datafile name="KugelfassungPregnancyBelly" target="Kugelfassung" local="true">KugelfassungPregnancyBelly.bsd</datafile>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <datafile name="Sphere02TummyTuck" target="Sphere02" local="true">Sphere02TummyTuck.bsd</datafile>
+            <datafile name="KugelfassungTummyTuck" target="Kugelfassung" local="true">KugelfassungTummyTuck.bsd</datafile>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <datafile name="Sphere02Back" target="Sphere02" local="true">Sphere02Back.bsd</datafile>
+            <datafile name="KugelfassungBack" target="Kugelfassung" local="true">KugelfassungBack.bsd</datafile>
+        </Slider>
+        <Slider name="Hipbone" invert="false" small="0" big="0">
+            <datafile name="Sphere02Hipbone" target="Sphere02" local="true">Sphere02Hipbone.bsd</datafile>
+            <datafile name="KugelfassungHipbone" target="Kugelfassung" local="true">KugelfassungHipbone.bsd</datafile>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <datafile name="Sphere02Hips" target="Sphere02" local="true">Sphere02Hips.bsd</datafile>
+            <datafile name="KugelfassungHips" target="Kugelfassung" local="true">KugelfassungHips.bsd</datafile>
+        </Slider>
+        <Slider name="ButtSmall" invert="true" small="100" big="100">
+            <datafile name="Sphere02ButtSmall" target="Sphere02" local="true">Sphere02ButtSmall.bsd</datafile>
+            <datafile name="KugelfassungButtSmall" target="Kugelfassung" local="true">KugelfassungButtSmall.bsd</datafile>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <datafile name="Sphere02ButtShape2" target="Sphere02" local="true">Sphere02ButtShape2.bsd</datafile>
+            <datafile name="KugelfassungButtShape2" target="Kugelfassung" local="true">KugelfassungButtShape2.bsd</datafile>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <datafile name="Sphere02BigButt" target="Sphere02" local="true">Sphere02BigButt.bsd</datafile>
+            <datafile name="KugelfassungBigButt" target="Kugelfassung" local="true">KugelfassungBigButt.bsd</datafile>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <datafile name="Sphere02ChubbyButt" target="Sphere02" local="true">Sphere02ChubbyButt.bsd</datafile>
+            <datafile name="KugelfassungChubbyButt" target="Kugelfassung" local="true">KugelfassungChubbyButt.bsd</datafile>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <datafile name="Sphere02SlimThighs" target="Sphere02" local="true">Sphere02SlimThighs.bsd</datafile>
+            <datafile name="KugelfassungSlimThighs" target="Kugelfassung" local="true">KugelfassungSlimThighs.bsd</datafile>
+        </Slider>
+    </SliderSet>
+	<SliderSet name="SED7_NippleRings">
+        <SetFolder>SED7_NippleRings</SetFolder>
+        <SourceFile>SED7_NippleRings.nif</SourceFile>
+        <OutputPath>meshes\mic\clothing\bodyjewelry\f</OutputPath>
+        <OutputFile>MiC_SED7_NippleRings</OutputFile>
+        <BaseShapeName target="Gem">Gem</BaseShapeName>
+        <BaseShapeName target="Ring">Ring</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="RingBreasts" target="Ring" local="true">RingBreasts.bsd</datafile>
+            <datafile name="GemBreasts" target="Gem" local="true">GemBreasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="RingBreastsSmall" target="Ring" local="true">RingBreastsSmall.bsd</datafile>
+            <datafile name="GemBreastsSmall" target="Gem" local="true">GemBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="RingBreastsSH" target="Ring" local="true">RingBreastsSH.bsd</datafile>
+            <datafile name="GemBreastsSH" target="Gem" local="true">GemBreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="RingBreastsSSH" target="Ring" local="true">RingBreastsSSH.bsd</datafile>
+            <datafile name="GemBreastsSSH" target="Gem" local="true">GemBreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="RingBreastsFantasy" target="Ring" local="true">RingBreastsFantasy.bsd</datafile>
+            <datafile name="GemBreastsFantasy" target="Gem" local="true">GemBreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="RingDoubleMelon" target="Ring" local="true">RingDoubleMelon.bsd</datafile>
+            <datafile name="GemDoubleMelon" target="Gem" local="true">GemDoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="RingBreastCleavage" target="Ring" local="true">RingBreastCleavage.bsd</datafile>
+            <datafile name="GemBreastCleavage" target="Gem" local="true">GemBreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="RingBreastFlatness" target="Ring" local="true">RingBreastFlatness.bsd</datafile>
+            <datafile name="GemBreastFlatness" target="Gem" local="true">GemBreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="RingBreastGravity" target="Ring" local="true">RingBreastGravity.bsd</datafile>
+            <datafile name="GemBreastGravity" target="Gem" local="true">GemBreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="RingPushUp" target="Ring" local="true">RingPushUp.bsd</datafile>
+            <datafile name="GemPushUp" target="Gem" local="true">GemPushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="RingBreastHeight" target="Ring" local="true">RingBreastHeight.bsd</datafile>
+            <datafile name="GemBreastHeight" target="Gem" local="true">GemBreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="RingBreastPerkiness" target="Ring" local="true">RingBreastPerkiness.bsd</datafile>
+            <datafile name="GemBreastPerkiness" target="Gem" local="true">GemBreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="RingBreastWidth" target="Ring" local="true">RingBreastWidth.bsd</datafile>
+            <datafile name="GemBreastWidth" target="Gem" local="true">GemBreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="RingNippleDistance" target="Ring" local="true">RingNippleDistance.bsd</datafile>
+            <datafile name="GemNippleDistance" target="Gem" local="true">GemNippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="RingNipplePerkiness" target="Ring" local="true">RingNipplePerkiness.bsd</datafile>
+            <datafile name="GemNipplePerkiness" target="Gem" local="true">GemNipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <datafile name="RingNippleLength" target="Ring" local="true">RingNippleLength.bsd</datafile>
+            <datafile name="GemNippleLength" target="Gem" local="true">GemNippleLength.bsd</datafile>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <datafile name="RingNippleSize" target="Ring" local="true">RingNippleSize.bsd</datafile>
+            <datafile name="GemNippleSize" target="Gem" local="true">GemNippleSize.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="RingNippleUp" target="Ring" local="true">RingNippleUp.bsd</datafile>
+            <datafile name="GemNippleUp" target="Gem" local="true">GemNippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="RingNippleDown" target="Ring" local="true">RingNippleDown.bsd</datafile>
+            <datafile name="GemNippleDown" target="Gem" local="true">GemNippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <datafile name="RingNippleTip" target="Ring" local="true">RingNippleTip.bsd</datafile>
+            <datafile name="GemNippleTip" target="Gem" local="true">GemNippleTip.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="RingBigTorso" target="Ring" local="true">RingBigTorso.bsd</datafile>
+            <datafile name="GemBigTorso" target="Gem" local="true">GemBigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="RingPregnancyBelly" target="Ring" local="true">RingPregnancyBelly.bsd</datafile>
+            <datafile name="GemPregnancyBelly" target="Gem" local="true">GemPregnancyBelly.bsd</datafile>
+        </Slider>
+    </SliderSet>
+	<SliderSet name="SED7_NippleShield">
+        <SetFolder>SED7_NippleShield</SetFolder>
+        <SourceFile>SED7_NippleShield.nif</SourceFile>
+        <OutputPath>meshes\mic\clothing\bodyjewelry\f</OutputPath>
+        <OutputFile>MiC_SED7_NippleShield</OutputFile>
+        <BaseShapeName target="GemL">GemL</BaseShapeName>
+        <BaseShapeName target="GemR">GemR</BaseShapeName>
+        <BaseShapeName target="KlingeL">KlingeL</BaseShapeName>
+        <BaseShapeName target="KlingeR">KlingeR</BaseShapeName>
+        <BaseShapeName target="ShieldL">ShieldL</BaseShapeName>
+        <BaseShapeName target="ShieldR">ShieldR</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="GemRBreasts" target="GemR" local="true">GemRBreasts.bsd</datafile>
+            <datafile name="ShieldRBreasts" target="ShieldR" local="true">ShieldRBreasts.bsd</datafile>
+            <datafile name="KlingeRBreasts" target="KlingeR" local="true">KlingeRBreasts.bsd</datafile>
+            <datafile name="KlingeLBreasts" target="KlingeL" local="true">KlingeLBreasts.bsd</datafile>
+            <datafile name="GemLBreasts" target="GemL" local="true">GemLBreasts.bsd</datafile>
+            <datafile name="ShieldLBreasts" target="ShieldL" local="true">ShieldLBreasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="GemRBreastsSmall" target="GemR" local="true">GemRBreastsSmall.bsd</datafile>
+            <datafile name="ShieldRBreastsSmall" target="ShieldR" local="true">ShieldRBreastsSmall.bsd</datafile>
+            <datafile name="KlingeRBreastsSmall" target="KlingeR" local="true">KlingeRBreastsSmall.bsd</datafile>
+            <datafile name="KlingeLBreastsSmall" target="KlingeL" local="true">KlingeLBreastsSmall.bsd</datafile>
+            <datafile name="GemLBreastsSmall" target="GemL" local="true">GemLBreastsSmall.bsd</datafile>
+            <datafile name="ShieldLBreastsSmall" target="ShieldL" local="true">ShieldLBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="GemRBreastsSH" target="GemR" local="true">GemRBreastsSH.bsd</datafile>
+            <datafile name="ShieldRBreastsSH" target="ShieldR" local="true">ShieldRBreastsSH.bsd</datafile>
+            <datafile name="KlingeRBreastsSH" target="KlingeR" local="true">KlingeRBreastsSH.bsd</datafile>
+            <datafile name="KlingeLBreastsSH" target="KlingeL" local="true">KlingeLBreastsSH.bsd</datafile>
+            <datafile name="GemLBreastsSH" target="GemL" local="true">GemLBreastsSH.bsd</datafile>
+            <datafile name="ShieldLBreastsSH" target="ShieldL" local="true">ShieldLBreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="GemRBreastsSSH" target="GemR" local="true">GemRBreastsSSH.bsd</datafile>
+            <datafile name="ShieldRBreastsSSH" target="ShieldR" local="true">ShieldRBreastsSSH.bsd</datafile>
+            <datafile name="KlingeRBreastsSSH" target="KlingeR" local="true">KlingeRBreastsSSH.bsd</datafile>
+            <datafile name="KlingeLBreastsSSH" target="KlingeL" local="true">KlingeLBreastsSSH.bsd</datafile>
+            <datafile name="GemLBreastsSSH" target="GemL" local="true">GemLBreastsSSH.bsd</datafile>
+            <datafile name="ShieldLBreastsSSH" target="ShieldL" local="true">ShieldLBreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="GemRBreastsFantasy" target="GemR" local="true">GemRBreastsFantasy.bsd</datafile>
+            <datafile name="ShieldRBreastsFantasy" target="ShieldR" local="true">ShieldRBreastsFantasy.bsd</datafile>
+            <datafile name="KlingeRBreastsFantasy" target="KlingeR" local="true">KlingeRBreastsFantasy.bsd</datafile>
+            <datafile name="KlingeLBreastsFantasy" target="KlingeL" local="true">KlingeLBreastsFantasy.bsd</datafile>
+            <datafile name="GemLBreastsFantasy" target="GemL" local="true">GemLBreastsFantasy.bsd</datafile>
+            <datafile name="ShieldLBreastsFantasy" target="ShieldL" local="true">ShieldLBreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="GemRDoubleMelon" target="GemR" local="true">GemRDoubleMelon.bsd</datafile>
+            <datafile name="ShieldRDoubleMelon" target="ShieldR" local="true">ShieldRDoubleMelon.bsd</datafile>
+            <datafile name="KlingeRDoubleMelon" target="KlingeR" local="true">KlingeRDoubleMelon.bsd</datafile>
+            <datafile name="KlingeLDoubleMelon" target="KlingeL" local="true">KlingeLDoubleMelon.bsd</datafile>
+            <datafile name="GemLDoubleMelon" target="GemL" local="true">GemLDoubleMelon.bsd</datafile>
+            <datafile name="ShieldLDoubleMelon" target="ShieldL" local="true">ShieldLDoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="GemRBreastCleavage" target="GemR" local="true">GemRBreastCleavage.bsd</datafile>
+            <datafile name="ShieldRBreastCleavage" target="ShieldR" local="true">ShieldRBreastCleavage.bsd</datafile>
+            <datafile name="KlingeRBreastCleavage" target="KlingeR" local="true">KlingeRBreastCleavage.bsd</datafile>
+            <datafile name="KlingeLBreastCleavage" target="KlingeL" local="true">KlingeLBreastCleavage.bsd</datafile>
+            <datafile name="GemLBreastCleavage" target="GemL" local="true">GemLBreastCleavage.bsd</datafile>
+            <datafile name="ShieldLBreastCleavage" target="ShieldL" local="true">ShieldLBreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="GemRBreastFlatness" target="GemR" local="true">GemRBreastFlatness.bsd</datafile>
+            <datafile name="ShieldRBreastFlatness" target="ShieldR" local="true">ShieldRBreastFlatness.bsd</datafile>
+            <datafile name="KlingeRBreastFlatness" target="KlingeR" local="true">KlingeRBreastFlatness.bsd</datafile>
+            <datafile name="KlingeLBreastFlatness" target="KlingeL" local="true">KlingeLBreastFlatness.bsd</datafile>
+            <datafile name="GemLBreastFlatness" target="GemL" local="true">GemLBreastFlatness.bsd</datafile>
+            <datafile name="ShieldLBreastFlatness" target="ShieldL" local="true">ShieldLBreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="GemRBreastGravity" target="GemR" local="true">GemRBreastGravity.bsd</datafile>
+            <datafile name="ShieldRBreastGravity" target="ShieldR" local="true">ShieldRBreastGravity.bsd</datafile>
+            <datafile name="KlingeRBreastGravity" target="KlingeR" local="true">KlingeRBreastGravity.bsd</datafile>
+            <datafile name="KlingeLBreastGravity" target="KlingeL" local="true">KlingeLBreastGravity.bsd</datafile>
+            <datafile name="GemLBreastGravity" target="GemL" local="true">GemLBreastGravity.bsd</datafile>
+            <datafile name="ShieldLBreastGravity" target="ShieldL" local="true">ShieldLBreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="GemRPushUp" target="GemR" local="true">GemRPushUp.bsd</datafile>
+            <datafile name="ShieldRPushUp" target="ShieldR" local="true">ShieldRPushUp.bsd</datafile>
+            <datafile name="KlingeRPushUp" target="KlingeR" local="true">KlingeRPushUp.bsd</datafile>
+            <datafile name="KlingeLPushUp" target="KlingeL" local="true">KlingeLPushUp.bsd</datafile>
+            <datafile name="GemLPushUp" target="GemL" local="true">GemLPushUp.bsd</datafile>
+            <datafile name="ShieldLPushUp" target="ShieldL" local="true">ShieldLPushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="GemRBreastHeight" target="GemR" local="true">GemRBreastHeight.bsd</datafile>
+            <datafile name="ShieldRBreastHeight" target="ShieldR" local="true">ShieldRBreastHeight.bsd</datafile>
+            <datafile name="KlingeRBreastHeight" target="KlingeR" local="true">KlingeRBreastHeight.bsd</datafile>
+            <datafile name="KlingeLBreastHeight" target="KlingeL" local="true">KlingeLBreastHeight.bsd</datafile>
+            <datafile name="GemLBreastHeight" target="GemL" local="true">GemLBreastHeight.bsd</datafile>
+            <datafile name="ShieldLBreastHeight" target="ShieldL" local="true">ShieldLBreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="GemRBreastPerkiness" target="GemR" local="true">GemRBreastPerkiness.bsd</datafile>
+            <datafile name="ShieldRBreastPerkiness" target="ShieldR" local="true">ShieldRBreastPerkiness.bsd</datafile>
+            <datafile name="KlingeRBreastPerkiness" target="KlingeR" local="true">KlingeRBreastPerkiness.bsd</datafile>
+            <datafile name="KlingeLBreastPerkiness" target="KlingeL" local="true">KlingeLBreastPerkiness.bsd</datafile>
+            <datafile name="GemLBreastPerkiness" target="GemL" local="true">GemLBreastPerkiness.bsd</datafile>
+            <datafile name="ShieldLBreastPerkiness" target="ShieldL" local="true">ShieldLBreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="GemRBreastWidth" target="GemR" local="true">GemRBreastWidth.bsd</datafile>
+            <datafile name="ShieldRBreastWidth" target="ShieldR" local="true">ShieldRBreastWidth.bsd</datafile>
+            <datafile name="KlingeRBreastWidth" target="KlingeR" local="true">KlingeRBreastWidth.bsd</datafile>
+            <datafile name="KlingeLBreastWidth" target="KlingeL" local="true">KlingeLBreastWidth.bsd</datafile>
+            <datafile name="GemLBreastWidth" target="GemL" local="true">GemLBreastWidth.bsd</datafile>
+            <datafile name="ShieldLBreastWidth" target="ShieldL" local="true">ShieldLBreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="GemRNippleDistance" target="GemR" local="true">GemRNippleDistance.bsd</datafile>
+            <datafile name="ShieldRNippleDistance" target="ShieldR" local="true">ShieldRNippleDistance.bsd</datafile>
+            <datafile name="KlingeRNippleDistance" target="KlingeR" local="true">KlingeRNippleDistance.bsd</datafile>
+            <datafile name="KlingeLNippleDistance" target="KlingeL" local="true">KlingeLNippleDistance.bsd</datafile>
+            <datafile name="GemLNippleDistance" target="GemL" local="true">GemLNippleDistance.bsd</datafile>
+            <datafile name="ShieldLNippleDistance" target="ShieldL" local="true">ShieldLNippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="GemRNipplePerkiness" target="GemR" local="true">GemRNipplePerkiness.bsd</datafile>
+            <datafile name="ShieldRNipplePerkiness" target="ShieldR" local="true">ShieldRNipplePerkiness.bsd</datafile>
+            <datafile name="KlingeRNipplePerkiness" target="KlingeR" local="true">KlingeRNipplePerkiness.bsd</datafile>
+            <datafile name="KlingeLNipplePerkiness" target="KlingeL" local="true">KlingeLNipplePerkiness.bsd</datafile>
+            <datafile name="GemLNipplePerkiness" target="GemL" local="true">GemLNipplePerkiness.bsd</datafile>
+            <datafile name="ShieldLNipplePerkiness" target="ShieldL" local="true">ShieldLNipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <datafile name="GemRNippleLength" target="GemR" local="true">GemRNippleLength.bsd</datafile>
+            <datafile name="ShieldRNippleLength" target="ShieldR" local="true">ShieldRNippleLength.bsd</datafile>
+            <datafile name="KlingeRNippleLength" target="KlingeR" local="true">KlingeRNippleLength.bsd</datafile>
+            <datafile name="KlingeLNippleLength" target="KlingeL" local="true">KlingeLNippleLength.bsd</datafile>
+            <datafile name="GemLNippleLength" target="GemL" local="true">GemLNippleLength.bsd</datafile>
+            <datafile name="ShieldLNippleLength" target="ShieldL" local="true">ShieldLNippleLength.bsd</datafile>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <datafile name="GemRNippleSize" target="GemR" local="true">GemRNippleSize.bsd</datafile>
+            <datafile name="ShieldRNippleSize" target="ShieldR" local="true">ShieldRNippleSize.bsd</datafile>
+            <datafile name="KlingeRNippleSize" target="KlingeR" local="true">KlingeRNippleSize.bsd</datafile>
+            <datafile name="KlingeLNippleSize" target="KlingeL" local="true">KlingeLNippleSize.bsd</datafile>
+            <datafile name="GemLNippleSize" target="GemL" local="true">GemLNippleSize.bsd</datafile>
+            <datafile name="ShieldLNippleSize" target="ShieldL" local="true">ShieldLNippleSize.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="GemRNippleUp" target="GemR" local="true">GemRNippleUp.bsd</datafile>
+            <datafile name="ShieldRNippleUp" target="ShieldR" local="true">ShieldRNippleUp.bsd</datafile>
+            <datafile name="KlingeRNippleUp" target="KlingeR" local="true">KlingeRNippleUp.bsd</datafile>
+            <datafile name="KlingeLNippleUp" target="KlingeL" local="true">KlingeLNippleUp.bsd</datafile>
+            <datafile name="GemLNippleUp" target="GemL" local="true">GemLNippleUp.bsd</datafile>
+            <datafile name="ShieldLNippleUp" target="ShieldL" local="true">ShieldLNippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="GemRNippleDown" target="GemR" local="true">GemRNippleDown.bsd</datafile>
+            <datafile name="ShieldRNippleDown" target="ShieldR" local="true">ShieldRNippleDown.bsd</datafile>
+            <datafile name="KlingeRNippleDown" target="KlingeR" local="true">KlingeRNippleDown.bsd</datafile>
+            <datafile name="KlingeLNippleDown" target="KlingeL" local="true">KlingeLNippleDown.bsd</datafile>
+            <datafile name="GemLNippleDown" target="GemL" local="true">GemLNippleDown.bsd</datafile>
+            <datafile name="ShieldLNippleDown" target="ShieldL" local="true">ShieldLNippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <datafile name="GemRNippleTip" target="GemR" local="true">GemRNippleTip.bsd</datafile>
+            <datafile name="ShieldRNippleTip" target="ShieldR" local="true">ShieldRNippleTip.bsd</datafile>
+            <datafile name="KlingeRNippleTip" target="KlingeR" local="true">KlingeRNippleTip.bsd</datafile>
+            <datafile name="KlingeLNippleTip" target="KlingeL" local="true">KlingeLNippleTip.bsd</datafile>
+            <datafile name="GemLNippleTip" target="GemL" local="true">GemLNippleTip.bsd</datafile>
+            <datafile name="ShieldLNippleTip" target="ShieldL" local="true">ShieldLNippleTip.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="GemRBigTorso" target="GemR" local="true">GemRBigTorso.bsd</datafile>
+            <datafile name="ShieldRBigTorso" target="ShieldR" local="true">ShieldRBigTorso.bsd</datafile>
+            <datafile name="KlingeRBigTorso" target="KlingeR" local="true">KlingeRBigTorso.bsd</datafile>
+            <datafile name="KlingeLBigTorso" target="KlingeL" local="true">KlingeLBigTorso.bsd</datafile>
+            <datafile name="GemLBigTorso" target="GemL" local="true">GemLBigTorso.bsd</datafile>
+            <datafile name="ShieldLBigTorso" target="ShieldL" local="true">ShieldLBigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="GemRPregnancyBelly" target="GemR" local="true">GemRPregnancyBelly.bsd</datafile>
+            <datafile name="ShieldRPregnancyBelly" target="ShieldR" local="true">ShieldRPregnancyBelly.bsd</datafile>
+            <datafile name="KlingeRPregnancyBelly" target="KlingeR" local="true">KlingeRPregnancyBelly.bsd</datafile>
+            <datafile name="KlingeLPregnancyBelly" target="KlingeL" local="true">KlingeLPregnancyBelly.bsd</datafile>
+            <datafile name="GemLPregnancyBelly" target="GemL" local="true">GemLPregnancyBelly.bsd</datafile>
+            <datafile name="ShieldLPregnancyBelly" target="ShieldL" local="true">ShieldLPregnancyBelly.bsd</datafile>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

@@ -1,0 +1,98 @@
+<SliderSetInfo>
+    <SliderSet name="New Outfit">
+        <SetFolder>NewOutfit</SetFolder>
+        <SourceFile>NewOutfit.nif</SourceFile>
+        <OutputPath>meshes\armor\NewOutfit</OutputPath>
+        <OutputFile>NewOutfit</OutputFile>
+        <BaseShapeName target="Gem">Gem</BaseShapeName>
+        <BaseShapeName target="Ring">Ring</BaseShapeName>
+        <Slider name="Breasts" invert="true" small="20" big="100">
+            <datafile name="RingBreasts" target="Ring" local="true">RingBreasts.bsd</datafile>
+            <datafile name="GemBreasts" target="Gem" local="true">GemBreasts.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSmall" invert="true" small="100" big="100">
+            <datafile name="RingBreastsSmall" target="Ring" local="true">RingBreastsSmall.bsd</datafile>
+            <datafile name="GemBreastsSmall" target="Gem" local="true">GemBreastsSmall.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSH" invert="false" small="0" big="0">
+            <datafile name="RingBreastsSH" target="Ring" local="true">RingBreastsSH.bsd</datafile>
+            <datafile name="GemBreastsSH" target="Gem" local="true">GemBreastsSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsSSH" invert="false" small="0" big="0">
+            <datafile name="RingBreastsSSH" target="Ring" local="true">RingBreastsSSH.bsd</datafile>
+            <datafile name="GemBreastsSSH" target="Gem" local="true">GemBreastsSSH.bsd</datafile>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <datafile name="RingBreastsFantasy" target="Ring" local="true">RingBreastsFantasy.bsd</datafile>
+            <datafile name="GemBreastsFantasy" target="Gem" local="true">GemBreastsFantasy.bsd</datafile>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <datafile name="RingDoubleMelon" target="Ring" local="true">RingDoubleMelon.bsd</datafile>
+            <datafile name="GemDoubleMelon" target="Gem" local="true">GemDoubleMelon.bsd</datafile>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <datafile name="RingBreastCleavage" target="Ring" local="true">RingBreastCleavage.bsd</datafile>
+            <datafile name="GemBreastCleavage" target="Gem" local="true">GemBreastCleavage.bsd</datafile>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <datafile name="RingBreastFlatness" target="Ring" local="true">RingBreastFlatness.bsd</datafile>
+            <datafile name="GemBreastFlatness" target="Gem" local="true">GemBreastFlatness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastGravity" invert="false" small="0" big="0">
+            <datafile name="RingBreastGravity" target="Ring" local="true">RingBreastGravity.bsd</datafile>
+            <datafile name="GemBreastGravity" target="Gem" local="true">GemBreastGravity.bsd</datafile>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <datafile name="RingPushUp" target="Ring" local="true">RingPushUp.bsd</datafile>
+            <datafile name="GemPushUp" target="Gem" local="true">GemPushUp.bsd</datafile>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <datafile name="RingBreastHeight" target="Ring" local="true">RingBreastHeight.bsd</datafile>
+            <datafile name="GemBreastHeight" target="Gem" local="true">GemBreastHeight.bsd</datafile>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <datafile name="RingBreastPerkiness" target="Ring" local="true">RingBreastPerkiness.bsd</datafile>
+            <datafile name="GemBreastPerkiness" target="Gem" local="true">GemBreastPerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <datafile name="RingBreastWidth" target="Ring" local="true">RingBreastWidth.bsd</datafile>
+            <datafile name="GemBreastWidth" target="Gem" local="true">GemBreastWidth.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDistance" invert="true" small="100" big="100">
+            <datafile name="RingNippleDistance" target="Ring" local="true">RingNippleDistance.bsd</datafile>
+            <datafile name="GemNippleDistance" target="Gem" local="true">GemNippleDistance.bsd</datafile>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <datafile name="RingNipplePerkiness" target="Ring" local="true">RingNipplePerkiness.bsd</datafile>
+            <datafile name="GemNipplePerkiness" target="Gem" local="true">GemNipplePerkiness.bsd</datafile>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <datafile name="RingNippleLength" target="Ring" local="true">RingNippleLength.bsd</datafile>
+            <datafile name="GemNippleLength" target="Gem" local="true">GemNippleLength.bsd</datafile>
+        </Slider>
+        <Slider name="NippleSize" invert="true" small="100" big="100">
+            <datafile name="RingNippleSize" target="Ring" local="true">RingNippleSize.bsd</datafile>
+            <datafile name="GemNippleSize" target="Gem" local="true">GemNippleSize.bsd</datafile>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <datafile name="RingNippleUp" target="Ring" local="true">RingNippleUp.bsd</datafile>
+            <datafile name="GemNippleUp" target="Gem" local="true">GemNippleUp.bsd</datafile>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <datafile name="RingNippleDown" target="Ring" local="true">RingNippleDown.bsd</datafile>
+            <datafile name="GemNippleDown" target="Gem" local="true">GemNippleDown.bsd</datafile>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <datafile name="RingNippleTip" target="Ring" local="true">RingNippleTip.bsd</datafile>
+            <datafile name="GemNippleTip" target="Gem" local="true">GemNippleTip.bsd</datafile>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <datafile name="RingBigTorso" target="Ring" local="true">RingBigTorso.bsd</datafile>
+            <datafile name="GemBigTorso" target="Gem" local="true">GemBigTorso.bsd</datafile>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <datafile name="RingPregnancyBelly" target="Ring" local="true">RingPregnancyBelly.bsd</datafile>
+            <datafile name="GemPregnancyBelly" target="Gem" local="true">GemPregnancyBelly.bsd</datafile>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>
